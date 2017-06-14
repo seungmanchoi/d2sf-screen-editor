@@ -1,0 +1,32 @@
+.button {
+  margin: 12px;
+}
+
+.button2 {
+  margin: 12px;
+  /*width: 100px !important;*/
+}
+
+.imageInput {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.rootWrap {
+  display: flex;
+  flexWrap: wrap;
+  justifyContent: space-around;
+}
+
+.buttonSave {
+  position: absolute !important;
+  top: 0px !important;
+  /* bottom: 10px; */
+  left: 568px !important;
+}

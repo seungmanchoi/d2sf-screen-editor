@@ -1,0 +1,18 @@
+{
+  "name": "electron-react-d2sf-screen-editor",
+  "productName": "electron-react-d2sf-screen-editor",
+  "version": "1.0.0",
+  "description": "D2SF Screen Editor",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Seungman Choi",
+    "email": "blueng.choi@gmail.com",
+    "url": "https://github.com/seungmanchoi"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}
